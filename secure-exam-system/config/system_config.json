@@ -1,0 +1,54 @@
+{
+  "mode": "testing",
+  "vpn": {
+    "interface": "wg0",
+    "config_path": "/etc/wireguard/exam.conf",
+    "namespace": "exam_ns",
+    "vpn_ip": "10.8.0.2/24",
+    "vpn_gateway": "10.8.0.1",
+    "kill_switch_enabled": true
+  },
+  "network": {
+    "allowed_domains": [
+      "codeforces.com",
+      "*.codeforces.com",
+      "codeforces.org",
+      "*.codeforces.org",
+      "cf-static.com"
+    ],
+    "certificate_pinning_enabled": true,
+    "dns_server": "1.1.1.1"
+  },
+  "kiosk": {
+    "browser": "google-chrome",
+    "start_url": "https://codeforces.com",
+    "fullscreen": true,
+    "disable_dev_tools": true,
+    "disable_context_menu": true
+  },
+  "process_allowlist": {
+    "system_processes": [
+      "systemd",
+      "dbus-daemon",
+      "Xorg",
+      "pulseaudio",
+      "NetworkManager"
+    ],
+    "exam_app": {
+      "name": "google-chrome",
+      "path": "/usr/bin/google-chrome",
+      "checksum": ""
+    }
+  },
+  "security": {
+    "use_apparmor": true,
+    "profile_name": "exam-lockdown",
+    "kernel_module_path": "/home/savvy19/Desktop/product/secure-exam-system/process_manager/kernel_monitor/proc_monitor.ko",
+    "integrity_check_enabled": true
+  },
+  "logging": {
+    "log_dir": "/var/log/secure-exam",
+    "log_level": "INFO",
+    "log_to_kernel": true
+  }
+}

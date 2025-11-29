@@ -1,0 +1,12 @@
+{
+  "network/vpn_manager.py": "c5d01aba9b7cbca593aacac9a829098da6a7372b4e2f24e6404b77efbeb1985e",
+  "network/domain_filter.py": "a2dda7a5e512accb221925b6e054993d9f3bb3c23bf8c2d70c2a1328a3fbb566",
+  "network/kiosk_browser.py": "3d72689fe70cf65f750658c7145e48040d66d6c77b13ea88542937b7031df3ab",
+  "process_manager/allowlist_manager.py": "2dce8542507c191b8a0aaa73ff7b77d17d7a5c40435f1de21a5efa4d5a3cbdf9",
+  "process_manager/process_monitor.py": "888be040c5ade7ae78acdc3999cc13e925b932721befa4dda49137156f639f3d",
+  "process_manager/process_enforcer.py": "27b72fdfcf252adb073d77f08cfe45745754dd0d7f8b88d3d72718c8f4e8c05f",
+  "security/system_lockdown.py": "6c286e21572ebae9ca7b065ad25d49e727d9df38cf509aeb04aa2abd7d4e0337",
+  "security/integrity_checker.py": "96106238bdf4e55300b9caf5bd8d4101d95fdf9c9f640513b91be7f74c3c662b",
+  "security/profile_templates/exam_apparmor.profile": "43124eab9c3fbca9bb098c54eb382304e426820507ece51d24faea4a1df7a44f",
+  "config/system_config.json": "793ea7a21ad0208eead2e356bfc8992464531182c31a287ad25e971f1566cfef"
+}

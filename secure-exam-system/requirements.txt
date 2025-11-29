@@ -1,0 +1,9 @@
+# Secure Exam System - Python Dependencies
+
+# Process monitoring
+psutil>=5.9.0
+
+# Network monitoring (already available in most systems)
+# netifd (system package)
+# auditcl (system package)
+# auditd (system package)
